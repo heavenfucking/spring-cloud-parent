@@ -8,8 +8,9 @@
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
 		<module>service-registry-center</module>
-		<module>service-provider-one</module>
-        <module>service-dao</module>
+		<module>service-provider-user</module>
+        <module>service-consumer-feign</module>
+		<module>service-config-server</module>
     </modules>
     <packaging>pom</packaging>
 
