@@ -2,9 +2,13 @@
 server:
   port: 9101     # 指定该Eureka实例的端口
 
+spring:
+  application:
+    name: service-registry-center
+
 eureka:
   instance:
-    hostname: service-registry-center   # 指定该Eureka实例的主机名
+    hostname: localhost   # 指定该Eureka实例的主机名
   client:
     registerWithEureka: false
     fetchRegistry: false
